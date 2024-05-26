@@ -24,6 +24,9 @@ const App = () => {
         <li className={style.hobby}>Hiking</li>
         <li className={style.hobby}>Travelling</li>
       </ul>
+      <div className="alert alert-primary" role="alert">
+        A simple primary alert—check it out!
+      </div>
     </div>
   );
 };
