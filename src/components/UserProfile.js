@@ -1,22 +1,19 @@
-const UserProfile = () => {
+const UserProfile = (props) => {
+  console.log(props);
   return (
     <div style={{ border: "1px solid #ccc", padding: "20px", margin: "20px" }}>
       <h2>User Profile</h2>
       <p>
-        <b>Name</b>:Emannuel
+        <b>Name</b>:{props.name}
       </p>
       <p>
-        <b>Email</b>:Emannuel@gmail.com
+        <b>Email</b>:{props.email}
       </p>
       <p>
-        <b>Location</b>:Kumashi gana
+        <b>Location</b>:{props.location}
       </p>
       <p>
-        <b>About</b>:The standard chunk of Lorem Ipsum used since the 1500s is
-        reproduced below for those interested. Sections 1.10.32 and 1.10.33 from
-        "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their
-        exact original form, accompanied by English versions from the 1914
-        translation by H. Rackham.
+        <b>About</b>:{props.about}
       </p>
     </div>
   );
