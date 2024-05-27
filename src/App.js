@@ -1,9 +1,9 @@
-import Post from "./components/Post";
+import StudentRegistration from "./components/StudentRegistration";
 const App = () => {
   return (
     //rendring the component
     <>
-      <Post />
+      <StudentRegistration />
     </>
   );
 };
