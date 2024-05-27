@@ -1,9 +1,9 @@
-import Task from "./components/Task";
+import Post from "./components/Post";
 const App = () => {
   return (
     //rendring the component
     <>
-      <Task />
+      <Post />
     </>
   );
 };
