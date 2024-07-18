@@ -3,6 +3,7 @@ import About from "./components/About";
 import Admin from "./components/Admin";
 import Contact from "./components/Contact";
 import NavBar from "./components/NavBar";
+import Counter from "./components/Counter";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/admin" element={<Admin />} />
+          <Route path="/counter" element={<Counter />} />
           <Route
             path="*"
             element={
